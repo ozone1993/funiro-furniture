@@ -1,0 +1,238 @@
+.top-content{
+    position: absolute;
+    width: 1365px;
+    height: 655px;
+    left: -1px;
+    top: 0px;
+    background-color: #FCF8F3;
+}
+
+#c1{
+    position: absolute;
+width: 964px;
+height: 655px;
+left: -1px;
+top: 0px;
+background-color: #F9F1E7;
+}
+
+.funiro{
+    position: absolute;
+    width: 74px;
+    height: 29px;
+    left: 99px;
+    top: 48px;
+    color: #000000;
+    font-family: Gilroy;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    list-style-type: none;
+}
+
+
+
+.main-menu > ul{
+    position: absolute;
+    left: 235px;
+    top: 54px;
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+.main-menu > ul >li{
+    display: inline-block;
+}
+.main-menu > ul > li > a{
+    color: #3A3A3A;
+    text-decoration: none;
+    display: block;
+    padding: 21px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+}
+.main-menu > ul > li > a > img{
+    position: absolute;
+    top: 24px;
+    left: 80px;
+    height: 20px;
+    width: 20px;
+    
+}
+
+.rooms{
+    position: absolute;
+    top: 24px;
+    left: 173px;
+    height: 20px;
+    width: 20px;
+}
+.main-menu > ul > li > a:hover{
+    background-color: orange;
+}
+/*drop */
+.drop{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    display: none;
+    z-index: 999;
+}
+.drop > li >a{
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+    font-family: sans-serif;
+    font-size: small;
+    background-color: rgb(226, 188, 188);  
+}
+.drop > li >a:hover{
+    background-color: orange;
+}
+.main-menu > ul > li:hover .drop{
+    display: block;
+}
+
+
+
+.search > img {
+position: absolute;
+
+
+left: 550px;
+top: 76px;
+width: 40px;
+height: 15px;
+
+
+
+
+}
+
+.search > input {
+position: absolute;
+width: 500px;
+height: 45px;
+left: 550px;
+top: 60px;
+border: none;
+outline: none;
+padding-left: 40px;
+
+}
+
+
+.heart-vector{
+position: absolute;
+top: 74px;
+right: 220px;
+
+}
+
+.shopping-cart{
+    position: absolute;
+    top: 74px;
+    right: 170px; 
+}
+
+.profile-image{
+    position: absolute;
+    top: 65px;
+    right: 100px;
+    Width: 35px;
+    height: 35px;
+
+}
+
+.left-slider > img{
+position: absolute;
+width: 380px;
+height: 453px;
+left: 0px;
+top: 220px;
+
+}
+
+.center-slider >img{
+    position: absolute;
+    width: 870px;
+    height: 453px;
+    left: 410px;
+    top: 220px;
+}
+
+.right-slider > img{
+    position: absolute;
+    width: 60px;
+    height: 453px;
+    left: 1307px;
+    top: 220px;
+}
+
+.white-box{
+position: absolute;
+width: 460px;
+height: 450px;
+left: 99px;
+top: 160px;
+background: rgba(255, 255, 255, 0.72);
+backdrop-filter: blur(31px);
+}
+
+.white-box > h2 {
+    position: absolute;
+    width: 374px;
+    height: 201px;
+    left: 75px;
+    top: 0px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 120%;
+    color: #3A3A3A;
+}
+
+.white-box > p {
+position: absolute;
+width: 357px;
+height: 90px;
+left: 75px;
+top: 190px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 150%;
+color: #898989;
+text-align: justify;
+
+}
+
+.white-box > a{
+    position: absolute;
+    top: 335px;
+    left: 75px;
+    height: 60px;
+    width: 300px;
+}
+
+.white-box > a > button{
+    position: absolute;
+    height: 60px;
+    width: 300px;
+    background-color: #E89F71;
+    color: #FFFFFF;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    border: none;
+}
