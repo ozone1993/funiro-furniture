@@ -1,8 +1,19 @@
+
+.container {
+    position: absolute;
+    top: 0px;
+    width: 1349.5px;
+    height: auto;
+    background-color: white;
+    left: -1px;
+    right: 0px;
+}
+
+
 .top-content{
     position: absolute;
-    width: 1365px;
-    height: 655px;
-    left: -1px;
+    width: 1349.5px;
+    height: 674px;
     top: 0px;
     background-color: #FCF8F3;
 }
@@ -10,7 +21,7 @@
 #c1{
     position: absolute;
 width: 964px;
-height: 655px;
+height: 674px;
 left: -1px;
 top: 0px;
 background-color: #F9F1E7;
@@ -103,15 +114,10 @@ background-color: #F9F1E7;
 
 .search > img {
 position: absolute;
-
-
 left: 550px;
 top: 76px;
 width: 40px;
 height: 15px;
-
-
-
 
 }
 
@@ -155,24 +161,24 @@ position: absolute;
 width: 380px;
 height: 453px;
 left: 0px;
-top: 220px;
+top: 221px;
 
 }
 
 .center-slider >img{
     position: absolute;
-    width: 870px;
+    width: 865px;
     height: 453px;
-    left: 410px;
-    top: 220px;
+    left: 403px;
+    top: 221px;
 }
 
 .right-slider > img{
     position: absolute;
     width: 60px;
     height: 453px;
-    left: 1307px;
-    top: 220px;
+    right: 0px;
+    top: 221px;
 }
 
 .white-box{
@@ -181,6 +187,7 @@ width: 460px;
 height: 450px;
 left: 99px;
 top: 160px;
+right: -1px;
 background: rgba(255, 255, 255, 0.72);
 backdrop-filter: blur(31px);
 }
@@ -235,4 +242,751 @@ text-align: justify;
     font-size: 20px;
     line-height: 150%;
     border: none;
+}
+.white-box-2{
+    position: absolute;
+    width: 288px;
+    height: 128px;
+    right: 117px;
+    top: 513px;
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(31px);
+}
+
+.white-box-2 > h3{
+position: relative;
+left: 30px;
+padding: 5px;
+top: -12px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 28px;
+line-height: 120%;
+color: #3A3A3A;
+}
+
+.white-box-2 > p{
+position: relative;
+left: 31px;
+padding: 5px;
+top: -48px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #616161;
+}
+
+.white-box-2 > a{
+position: absolute;
+left: 31px;
+padding: 5px;
+top: 70px;
+width: 129px;
+height: 30px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 150%;
+color: #3A3A3A;
+text-decoration: none;
+}
+
+.white-box-2 > img{
+position: absolute;
+Width: 15.2px;
+Height: 11.64px;
+right: 30px;
+top: 83px;
+
+}
+
+.c2{
+    position: absolute;
+    width: 1270px;
+    height: auto;
+    top: 800px;
+    padding: 40px;
+    background: white;
+   
+}
+
+.c2 > ul{
+    float: left;
+    list-style-type: none;  
+}
+
+.trophy{
+position: absolute;
+left: 2%;
+top: 0%;
+
+}
+
+.trophy > img {
+position: absolute;
+left: 86px;
+top: 30px;
+}
+
+.trophy > h3 {
+    position: absolute;
+    width: 104px;
+    height: 27px;
+    left: 145px;
+    top: 8px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #3A3A3A;
+}
+
+.trophy > p{
+position: absolute;
+width: 194px;
+height: 24px;
+left: 145px;
+top: 35px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 150%;
+color: #898989;
+}
+
+
+.warranty > img {
+    position: absolute;
+    left: 30%;
+    top: 30px;
+    }
+    
+    .warranty > h3 {
+        position: absolute;
+        width: 200px;
+        height: 27px;
+        left: 35%;
+        top: 8px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 150%;
+        color: #3A3A3A;
+        display: inline;
+    }
+    
+    .warranty > p{
+    position: absolute;
+    width: 194px;
+    height: 24px;
+    left: 35%;
+    top: 35px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #898989;
+    }
+
+    .free-shipping > img {
+        position: absolute;
+        left: 55%;
+        top: 30px;
+        }
+        
+        .free-shipping > h3 {
+            position: absolute;
+            width: 200px;
+            height: 27px;
+            left: 60%;
+            top: 8px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 18px;
+            line-height: 150%;
+            color: #3A3A3A;
+            display: inline;
+        }
+        
+        .free-shipping > p{
+        position: absolute;
+        width: 194px;
+        height: 24px;
+        left: 60%;
+        top: 35px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 150%;
+        color: #898989;
+        }
+
+        .support > img {
+            position: absolute;
+            left: 78%;
+            top: 30px;
+            }
+            
+            .support > h3 {
+                position: absolute;
+                width: 200px;
+                height: 27px;
+                left: 83%;
+                top: 8px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 600;
+                font-size: 18px;
+                line-height: 150%;
+                color: #3A3A3A;
+                display: inline;
+            }
+            
+            .support > p{
+            position: absolute;
+            width: 194px;
+            height: 24px;
+            left: 83%;
+            top: 35px;
+            font-family: 'Gilroy';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 150%;
+            color: #898989;
+            }
+
+            .Our-Products > h4{
+                position: absolute;
+                width: 243px;
+                height: 48px;
+                left: 590px;
+                top: 930px;
+                font-family: 'Gilroy';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 40px;
+                color: #3A3A3A;
+            }
+
+.products{
+    position: relative;
+    left: 80px;
+    width: 250px;
+    height: auto;
+    float: left;
+    margin: 10px;
+    margin-top: 80%;
+    padding: 12px;
+    background-color: #F4F5F7;   
+}
+
+.products > img{
+    position: relative;
+    width: 274px;
+    height: 280px;
+    left: -12px;
+    top: -12px;
+}
+
+.product-caption > p{
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+color:#3A3A3A;
+margin: 10px;
+margin-left: 0px;
+}
+
+.product-caption > h4{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B0B0B0;
+    margin: 7px;
+    margin-left: 0px;
+}
+
+
+.product-caption > p > del{
+    width: 98px;
+    height: 24px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #B0B0B0;
+}
+
+
+.product-caption > p > Ins{
+    width: 124px;
+    height: 30px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    color: #3A3A3A;
+    text-decoration: none;
+}
+
+.products-2{
+    position: relative;
+    left: 80px;
+    width: 250px;
+    height: auto;
+    float: left;
+    margin: 10px;
+    margin-top: 10px;
+    padding: 12px;
+    background-color: #F4F5F7;   
+}
+
+.products-2 > img{
+    position: relative;
+    width: 274px;
+    height: 280px;
+    left: -12px;
+    top: -12px;
+}
+
+.read-more > a > button {
+position: relative;
+width: 20%;
+height: 5%;;
+margin: 23px;
+left: 38%;
+padding: 18px;
+background: #FFFFFF;
+border: 1px solid #E89F71;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+color: #E89F71;
+}
+
+
+#c3{ 
+position: absolute;
+width: 1350px;
+height: 630px;
+top: 2075px;
+background: #FCF8F3;
+}
+
+.c3-content > h3{
+position: absolute;
+width: 378px;
+height: 90px;
+left: 100px;
+top: 130px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 120%;
+color: #3A3A3A;
+}
+
+.c3-content > p{
+    position: absolute;
+    width: 368px;
+    height: 48px;
+    left: 100px;
+    top: 257px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #616161;
+}
+
+.c3-content > a > button{
+    position: absolute;
+    width: 176px;
+    height: 48px;
+    left: 100px;
+    top: 340px;
+    background: #E89F71;
+    border: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.c3-image1 > img {
+    position: absolute;
+    width: 340px;
+    height: 530px;
+    left: 564px;
+    top: 47px;
+}
+
+.c3-image1-box{
+    position: absolute;
+    width: 180px;
+    height: 105px;
+    left: 43.5%;
+    top: 448px;
+    background: rgba(255, 255, 255, 0.72);
+    backdrop-filter: blur(3px);
+    
+    
+}
+
+.c3-image1-box > p{
+position: relative;
+left: 25px;
+top: 24px;
+width: 100px;
+height: 24px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+margin: 0px;
+color: #616161;
+}
+
+.c3-image1-box > h3{
+    position: relative;
+    left: 25px;
+    top: 25px;
+    font-family: 'Gilroy';
+    
+    font-weight: 550;
+    font-size: 24px;
+    color: #3A3A3A;
+    margin: 0px;
+}
+
+.c3-image2 > img{
+    position: absolute;
+    width: 340px;
+    height: 450px;
+    left: 930px;
+    top: 47px;
+}
+
+.c3-image3 > img{
+    position: absolute;
+    width: 55px;
+    height: 450px;
+    right: 0px;
+    top: 47px;
+}
+
+.c3-arrow{
+    position: absolute;
+    width: 48px;
+    height: 48px;
+    left: 767px;
+    top: 505px;
+    background: #E89F71; 
+}
+
+.c3-arrow > img{
+position: absolute;
+left: 24%;
+top: 21.88%;
+
+}
+
+
+
+.Tips-Tricks{
+    position: relative;
+    width: 360px;
+    height: auto;
+    float: left;
+    top: 630px;
+    background: #FFFFFF;
+    padding: 10px;
+    left: 120px;
+}
+
+.c4 > h3 {
+position: relative;
+width: 400px;
+height: 48px;
+left: 600px;
+top: 650px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+color: #3A3A3A;  
+}
+
+.Tips-Tricks > img{
+    position: relative;
+    width: 360px;
+    height: 230px;
+      
+}
+
+.Tips-Tricks > h3{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    margin: 10px;
+    color: #3A3A3A;
+}
+
+.Tips-Tricks > h6{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    margin: 10px;
+    margin-top: -2px;
+   color: #3A3A3A;
+}
+
+#c5-container{
+    position: relative;
+    height: 800px;
+    width: auto;
+    top: 1000px;
+    
+}
+
+.c5 > h5{
+position: absolute;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+left: 600px;
+color: #616161;  
+}
+
+.c5 > h3{
+position: absolute;
+top: 20px;
+left: 550px;
+font-family: 'Gilroy';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 120%;
+color: #3A3A3A;
+}
+
+#c5-1 > img {
+    position: absolute;
+    width: 234px;
+    height: 320px;
+    top: 80px;
+    left: 0px;
+}
+
+#c5-2 > img{
+    position: absolute;
+    width: 320px;
+    height: 320px;
+    top: 416px;
+    left: 0px;
+}
+
+#c5-3 > img{
+    position: absolute;
+    width: 411px;
+    height: 250px;
+    left: 247px;
+    top: 150px;
+}
+
+#c5-4 > img{
+    position: absolute;
+    width: 324px;
+    height: 212px;
+    left: 334px;
+    top: 416px;
+}
+
+#c5-5 > img{
+    position: absolute;
+    width: 250px;
+    height: 342px;
+    left: 672px;
+    top: 230px;  
+}
+
+#c5-6 > img {
+    position: absolute;
+    width: 250px;
+    height: 302px;
+    right: 164px;
+    top: 186px;  
+}
+
+#c5-7 > img{
+    position: absolute;
+    width: 152px;
+    height: 234px;
+    right: 261px;
+    top: 502px;
+}
+
+#c5-8 > img{
+    position: absolute;
+    width: 150px;
+    height: 408px;
+    right: 0px;
+    top: 80px;
+}
+
+#c5-9 > img{
+    position: absolute;
+    width: 246px;
+    height: 175px;
+    right: 0px;
+    top: 502px;
+}
+
+#line{
+position: relative;
+width: 1130px;
+height: 0px;
+left: 100px;
+top: 1020px;
+border: 1px solid #D8D8D8;
+}
+
+.main-footer{
+    position: relative;
+    top: 1070px;
+    background-color: #FFFFFF;
+    color: white; 
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-size: 15px;
+    color: #000000;
+    
+    
+}
+
+.footer-box{
+    width: 245.8px;
+    height: auto;
+    float: left;
+    font-style: normal;
+    font-family: sans-serif;
+    text-align: center;
+    text-align: justify;
+    padding-left: 15px;
+    
+    
+}
+
+.footer-box > ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+.footer-box > ul >li> a{
+    display: block;
+    margin-bottom: 5px;
+    text-decoration: none;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    color: #616161;
+    
+}
+
+address p {
+    font-size: small;
+    
+}
+
+.footer-box   address  h3{
+    font-style: normal;
+}
+
+.footer-box   address  a{
+    color: #616161;
+    font-size: small;
+    
+}
+
+.footer-box   address  p{
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #616161;
+    
+}
+
+.stay-updated-email {
+    position: absolute;
+    left: 1230px;
+    top: 10px;
+    width: 40px;
+    height: 15px;
+
+
+    
+    
+    }
+    
+    .stay-updated-email > input {
+    position: absolute;
+    width: 160px;
+    height: 35px;
+    right: 30px;
+    top: 70px;
+    border: none;
+    outline: none;
+    padding-left: 10px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    background-color: #F4F5F7;
+    
+    }
+
+.email-side-button{
+        position: absolute;
+        width: 35px;
+        height: 35px;
+        left: 1243px;
+        top: 80px;
+        background: #E89F71;
+    }
+
+.email-side-button > img{
+    position: absolute;
+    left: 7px;
+    top: 10px;
+    
+    
+    
 }
